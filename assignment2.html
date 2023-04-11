@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Assignment NO#2
+
+        // Question No # 01
+
+        // function addNumberClosure(n) {
+        // function addNumber(x) {
+        // return x + n;
+        // }
+        // return addNumber;
+        // }
+
+        // const addFive = addNumberClosure(5);
+        // console.log(addFive(10));
+        // console.log(addFive(100)); 
+
+
+
+        // Question No # 02
+
+        // function searchArray(arr, val) {
+        // if (arr.length === 0) {
+        // return false;
+        // } else if (arr[0] === val) {
+        // return true;
+        // } else {
+        // return searchArray(arr.slice(1), val); 
+        // }
+        // }
+
+        // const myArray = [1, 2, 3, 4, 5];
+        // console.log(searchArray(myArray, 3)); 
+        // console.log(searchArray(myArray, 6));
+
+
+
+        // Question No # 03
+
+        // function addParagraph(text) {
+        // const newParagraph = document.createElement('p'); // create a new <p> element
+        // newParagraph.textContent = text; // set the text content of the new element
+        // document.body.appendChild(newParagraph); // add the new element to the end of the <body>
+        // }
+        // addParagraph('Hello, world!');
+
+
+        // Question No # 04
+
+      //   var itemsExist = true;
+      //   var indexNum = 0;
+      //   var unorderedList = document.getElementById('itemList');
+      //   var alphabet= new Array("A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z");
+
+      //   function write_letters(){
+
+      //   for (i = 0; i < alphabet.length; i++ ) {
+      //   document.write('<li>'  + alphabet[indexNum++] + '</li>');
+      //   }
+
+      //   }
+
+      // if (itemsExist){
+      // write_letters();
+      // } else {
+      // document.write("error!");
+      // }
+        
+
+
+    
+        // Question No # 07
+
+        // function getObjectFromLocalStorage(key) {
+        //   const storedObject = localStorage.getItem(key);
+        //   if (storedObject) {
+        //     return JSON.parse(storedObject);
+        //   }
+        //   return null;
+        // }
+
+        // const myObject = getObjectFromLocalStorage('myKey');
+
+
+ // Question No # 08
+
+        // function saveObjectToLocalStorage(object) {
+        //   for (let key in object) {
+        //     localStorage.setItem(key, JSON.stringify(object[key]));
+        //   }
+        //   const savedObject = {};
+        //   for (let i = 0; i < localStorage.length; i++) {
+      //     const key = localStorage.key(i);
+      //     savedObject[key] = JSON.parse(localStorage.getItem(key));
+        //   }
+        //   return savedObject;
+          // }
+          // const myObject = {name: 'John', age: 30, city: 'New York'};
+          // const savedObject = saveObjectToLocalStorage(myObject);
+          // console.log(savedObject); 
+
+
+</script>
+</body>
+</html>
+
